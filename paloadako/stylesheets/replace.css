@@ -1,0 +1,77 @@
+** Shopping Cart Page **/
+.coupon {
+	width: 50%;
+}
+
+.woocommerce ul.products li.product h3 {
+	font-family:'Arial';
+	font-weight:bold;
+	font-size:24px !important;
+	color:#0099de;
+	padding:0 !important;
+}
+.woocommerce ul.products li.product .price {
+	font-size: 16px !important;
+	  font-family: georgia;
+}
+.woocommerce ul.products li.product a {
+	background:#004e8c;
+	color:#fff;
+}
+p.woocommerce-result-count {
+	display:none;
+}
+.woocommerce a.added_to_cart {
+	  padding: 5px 14px;
+	    background-color: #77a464 !important;
+}
+.woocommerce td.product-name dl.variation dt {
+	margin:7px 4px 0 0 !important;
+}
+.variation-MobileNumber p {
+	color:red;
+	font-weight:bold;
+}
+
+.woocommerce div.product form.cart table td {
+	display:block;
+	float:none;
+}
+.woocommerce div.product form.cart table td.wccpf_value {
+	  width: 58%;
+}
+.woocommerce div.product div.images img {
+	width:auto !important;
+	margin:auto;
+}
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+		padding: 25px 0;
+		background-color: #F7F7F7;
+  border-radius: 12px;
+	}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	clear: none;
+    margin: 12px;
+}
+h2.woocommerce-loop-product__title {	
+    font-size: 20px !important;
+    font-weight: bold;
+    color: #004e8c;
+    padding: 0 !important;
+}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	    float: none;
+    display: inline-block;
+}
+.moneyback-hldr {
+    position: absolute;
+    top: 57px;
+    right: 19px;
+}
+.moneyback-hldr img {
+    width: 130px;
+}
+.wccpf_label label[for=mobile_number]
+{
+ color: red;   
+}
